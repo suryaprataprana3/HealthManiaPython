@@ -27,7 +27,6 @@ This README would normally document whatever steps are necessary to get your app
 ### Who do I talk to? ###
 
 * Repo owner or admin
-<<<<<<< HEAD
 * Other community or team contact
 
 ### Summary of set up
@@ -35,16 +34,16 @@ This README would normally document whatever steps are necessary to get your app
 This is setup for Windows
 
 * Clone the repository 
-`git clone https://bitbucket.org/lims/lims/src/master/`
+`git clone `
 
 * Setup Virtual environment
-`virtualenv lims_env`
+`virtualenv env`
 
 * Activate Virtual Environment
-`lims_env\scripts\activate`
+`env\scripts\activate`
 
-* Move to lims folder
-`cd lims`
+* Move to  folder
+`cd `
 
 * Install the requirements.txt
 `pip install -r requirements.txt`
@@ -62,13 +61,13 @@ This is setup for Windows
 * Login using root user privellages
 
 * Create new database
-`CREATE DATABASE limsdb`
+`CREATE DATABASE `
 
 * Update settings_local.py
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'limsdb',
+        'NAME': 'db',
         'USER': 'DB_USER',
         'PASSWORD': 'DB_PASSWORD',
         'HOST': 'localhost', 
