@@ -8,6 +8,7 @@ from django.shortcuts import get_object_or_404
 from configurations.token import get_access_token
 
 
+#https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=AIzaSyDMw58nf4sl6Zv3BN57A-ycA4dygkPqayY
 class SignUpUserView(viewsets.ModelViewSet):
 
     def create(self,request):
